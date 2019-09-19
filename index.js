@@ -21,7 +21,7 @@ buttonSubmit.addEventListener('click', ()=> {
       let tableRow = document.createElement('tr');
       for(let j = 1; j <= columnValue; j++) {
         let tableHead = document.createElement('td');
-        tableHead.innerText = `${j * i}`
+        tableHead.innerHTML = `<span class="small">${j} x ${i} = </br> </span> ${j * i}`
         tableRow.appendChild(tableHead)
       }
       table.appendChild(tableRow)

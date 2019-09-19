@@ -28,7 +28,10 @@ table {
   margin: 30px auto;
   width: 100%;
   max-width: 1000px;
-  font-size: 22px;
+  font-size: 18px;
+}
+.small {
+  font-size: 9px;
 }
 
 td, tr {
