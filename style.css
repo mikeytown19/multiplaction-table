@@ -1,0 +1,48 @@
+h1 {
+  color: salmon;
+}
+
+.column {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column div {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  max-width: 200px;
+  width: 100%;
+  -webkit-appearance: none;
+  border: solid lightblue 1px;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+table {
+  margin: 30px auto;
+  width: 100%;
+  max-width: 1000px;
+  font-size: 22px;
+}
+
+td, tr {
+  text-align: center;
+  padding: 10px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+td {
+  border: solid #fa80722e 1px;
+  transition: background-color .3s;
+}
+tr:nth-child(odd) { background-color: lightsalmon;}
+tr:nth-child(odd) td:hover {background-color: white;}
+tr:nth-child(even) td:hover { background-color: whitesmoke;}
+.hidden {display: none;}
